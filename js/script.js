@@ -192,12 +192,12 @@ window.addEventListener('load', () => {
 
 // Social media links (placeholder - replace with actual URLs)
 const socialLinks = {
-    spotify: 'https://open.spotify.com/artist/your-artist-id',
-    instagram: 'https://instagram.com/udi_oficial',
-    youtube: 'https://youtube.com/@udi_oficial',
-    facebook: 'https://facebook.com/udi.oficial',
-    tiktok: 'https://tiktok.com/@udi_oficial',
-    twitter: 'https://twitter.com/udi_oficial'
+    spotify: 'https://open.spotify.com/intl-pt/artist/0BupX8lU30zhGjhL8tw8z6?si=6El6u3WISvCveHufTDF0lQ',
+    instagram: 'https://www.instagram.com/udioficial_/',
+    youtube: 'https://www.youtube.com/@udididomenico4492',
+    facebook: 'https://www.facebook.com/profile.php?id=1780790177',
+    tiktok: 'https://www.tiktok.com/@udioficial_?lang=pt-BR',
+    
 };
 
 // Update social media links
