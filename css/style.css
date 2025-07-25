@@ -12,7 +12,7 @@ html {
 body {
     font-family: 'Montserrat', sans-serif;
     line-height: 1.6;
-    color: #333;
+    color: #fcfcfc;
     overflow-x: hidden;
 }
 
@@ -38,7 +38,7 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 1.2rem;
     text-align: center;
     margin-bottom: 3rem;
-    color: #666;
+    color: #fcfcfc;
 }
 
 .section-header {
@@ -139,7 +139,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-link {
-    color: white;
+    color: rgb(208, 208, 208);
     text-decoration: none;
     font-weight: 600;
     transition: color 0.3s ease;
@@ -147,7 +147,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-link:hover {
-    color: #ffd700;
+    color: #e45d23;
 }
 
 .nav-link::after {
@@ -157,7 +157,7 @@ h1, h2, h3, h4, h5, h6 {
     left: 0;
     width: 0;
     height: 2px;
-    background: #ffd700;
+    background: #e45d23;
     transition: width 0.3s ease;
 }
 
@@ -177,7 +177,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .social-link:hover {
-    color: #ffd700;
+    color: #e45d23;
     transform: translateY(-2px);
 }
 
@@ -252,20 +252,17 @@ h1, h2, h3, h4, h5, h6 {
 .hero-img {
     width: 100%;
     max-width: 400px;
-    height: auto;
+    height: fit-content;
     border-radius: 20px;
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
-    transition: transform 0.3s ease;
+    
 }
 
-.hero-img:hover {
-    transform: scale(1.05);
-}
 
 /* Financiamento Section */
 .financiamento {
     padding: 6rem 0;
-    background: #fffaf0;
+    background: #f7832a;
 }
 
 .financiamento-content {
@@ -278,14 +275,16 @@ h1, h2, h3, h4, h5, h6 {
 .financiamento-text h3 {
     font-size: 2rem;
     margin-bottom: 1.5rem;
-    color: #d2691e;
+    margin-top: auto%;
+    color: #fcfcfc;
+
 }
 
 .financiamento-text p {
     font-size: 1.1rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     line-height: 1.8;
-    color: #555;
+    color: #fcfcfc;
 }
 
 .financiamento-features {
@@ -299,24 +298,24 @@ h1, h2, h3, h4, h5, h6 {
     align-items: center;
     gap: 1rem;
     font-weight: 600;
-    color: #d2691e;
+    color: #fcfcfc;
 }
 
 .feature i {
-    color: #ff6b35;
+    color: #fcfcfc;
     font-size: 1.2rem;
 }
 
 .fundrazr-widget {
-    background: white;
-    padding: 2rem;
+    background: rgb(143, 143, 143);
+    padding: auto;
     border-radius: 15px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
     text-align: center;
 }
 
 .widget-placeholder h4 {
-    color: #d2691e;
+    color: #fcfcfc;
     margin-bottom: 1rem;
 }
 
@@ -368,7 +367,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .sobre-img {
-    width: 100%;
+    width: 80%;
     height: auto;
     border-radius: 15px;
     box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
